@@ -15,7 +15,7 @@ export const App = () => {
       <section className="section">
         {!isWindowClosed && (
           <Window
-            title="Сергей, с наступающим Новым годом! 🎄"
+            title="Сергей, с Новым годом! 🎄"
             onClose={handleWindowClose}
           >
             <>
