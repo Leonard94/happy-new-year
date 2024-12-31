@@ -1,0 +1,29 @@
+@import "./reset.scss";
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: #acd9d3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+section {
+  font-size: 18px;
+  line-height: 120%;
+  color: rgb(46, 46, 46);
+  font-family:arial,
+  Helvetica,
+  sans-serif;
+  
+  p {
+    margin-bottom: 20px;
+  }
+}
